@@ -1,0 +1,45 @@
+* {
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #333;
+    font-family: "Cursive";
+}
+
+.heading {
+    color: #dfdbdb;
+    text-decoration: underline double #dfdbdb;
+}
+
+.heading:hover {
+    color: antiquewhite;
+    font-style: italic;
+    text-decoration: underline dashed pink;
+}
+
+.para {
+    color: beige;
+    font-size: 1.5rem;
+}
+
+button {
+    color: #333;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.3rem;
+
+}
+
+button:hover {
+    background-color: pink;
+    color: #333;
+
+}
+
+@font-face {
+    font-family: "Cursive";
+    src: url(AfacadFlux-VariableFont_slnt,wght.ttf);
+}
+
+
